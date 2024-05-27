@@ -36,6 +36,10 @@ rk3588 时耗（模型输入640x640，检测80类）
 ![image](https://github.com/cqu20160901/yolov10_onnx_rknn_horizon_tensorRT/assets/22290931/ab42ab0b-cda0-43a1-9666-a59f908fbae8)
 
 
+# rknn 部署C++代码
+
+[C++代码](https://github.com/cqu20160901/yolov10_rknn_Cplusplus)
+
 
 
 
