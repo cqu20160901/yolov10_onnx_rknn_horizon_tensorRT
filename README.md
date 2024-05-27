@@ -10,6 +10,8 @@ yolov10_rknn：rknn模型、测试（量化）图像、测试结果、onnx2rknn�
 
 yolov10_horizon：地平线模型、测试（量化）图像、测试结果、转换测试脚本、测试量化后onnx模型脚本
 
+**导出onnx参考链接[【yolov10 瑞芯微RKNN、地平线Horizon芯片部署、TensorRT部署，部署工程难度小、模型推理速度快】](https://blog.csdn.net/zhangqian_1/article/details/139239964)**
+
 # 测试效果
 
 pytorch 结果
