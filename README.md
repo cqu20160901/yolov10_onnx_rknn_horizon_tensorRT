@@ -31,7 +31,7 @@ rk3588 时耗（模型输入640x640，检测80类）
 
 ![image](https://github.com/cqu20160901/yolov10_onnx_rknn_horizon_tensorRT/assets/22290931/8accaafb-2b3e-45f2-a4cf-986cc72f35fd)
 
-本示例用的是yolov10n，模型计算量6.7G，看到这个时耗觉得可能是有操作切换到CPU上进行计算的，查了rknn转换模型日志确实是有操作切换到CPU上进行的，对应的是模型中 PSA 模块计算Attention这部分操作。
+本示例用的是yolov10n，模型计算量6.7G，看到这个时耗觉得可能是有操作切换到CPU上进行计算的，查了rknn转换模型日志确实是有操作切换到CPU上进行的，对应的是模型中 PSA 模块计算 Attention 这部分操作。
 
 ![image](https://github.com/cqu20160901/yolov10_onnx_rknn_horizon_tensorRT/assets/22290931/ab42ab0b-cda0-43a1-9666-a59f908fbae8)
 
